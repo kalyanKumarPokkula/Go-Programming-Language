@@ -20,7 +20,7 @@ func main () {
 
 	// string
 
-	var str string = "My name is kalyan"
+	// var str string = "My name is kalyan"
 
 	// int  int8  int16  int32  int64
 	var num int = 23;
@@ -41,7 +41,24 @@ func main () {
 
 	
 
-	fmt.Println(str, num, flo , b)
+	fmt.Println( num, flo , b)
+
+	// printEven(10)
+	// fmt.Println()
+
+	// fuzzbuzz(30)
+	// fmt.Println()
+
+	var str string= "Hello World"
+
+    for i , c := range str {
+		fmt.Printf("%d %c", i , c)
+		fmt.Println()
+	}
+
+	fmt.Println(str)
+
+
 
 }
 
